@@ -1,11 +1,16 @@
-body{
+html{
+    scroll-behavior: smooth;
+}
+#cards{
     background-image: url('/src/img/background.jpg'); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat; 
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
 }
 .logo{
     width: 6vw;
@@ -37,4 +42,7 @@ body{
     border-radius: 5px;
     margin-left: 5%;
     margin-bottom: 5%;
+}
+#carouselExampleCaptions{
+    margin-bottom: 2%;
 }
