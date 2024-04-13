@@ -46,3 +46,13 @@ html{
 #carouselExampleCaptions{
     margin-bottom: 2%;
 }
+/* Agrega un espacio adicional al principio del área de desplazamiento */
+:target::before {
+    content: "";
+    display: block;
+    height: 105px; /* Ajusta esta altura según la altura de tu navbar */
+    margin: 10px 0 0; /* Ajusta este margen para que coincida con la altura del navbar */
+  }
+  #quienes-somos{
+    color:white
+  }
