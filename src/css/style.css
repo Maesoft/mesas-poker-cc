@@ -56,3 +56,6 @@ html{
   #quienes-somos{
     color:white
   }
+  .mapa{
+    border-radius: 100%;
+  }
