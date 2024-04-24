@@ -1,39 +1,47 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-#cards{
-    background-image: url('/src/img/background.jpg'); 
-    background-size: cover; 
+
+#cards {
+    background-image: url('/src/img/background.jpg');
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 1vw;
 }
-.logo{
+
+.logo {
     width: 6vw;
     filter: drop-shadow(0px 0px 5px gray);
     margin-right: 0.5vw;
 }
-.navbar-collapse{
+
+.navbar-collapse {
     flex-direction: row-reverse;
     height: 8vw;
 }
-.linea-sombreada{
+
+.linea-sombreada {
     margin: 0px;
 }
-.bg-dark{
+
+.bg-dark {
     background-color: black;
 }
-.text-header{
+
+.text-header {
     width: 30%;
 }
-#carouselExampleCaptions{
+
+#carouselExampleCaptions {
     margin-top: 5vw;
 }
-.fondo-gris-trasparente{
+
+.fondo-gris-trasparente {
     FONT-WEIGHT: 200;
     width: 60%;
     padding: 20px;
@@ -43,19 +51,51 @@ html{
     margin-left: 5%;
     margin-bottom: 5%;
 }
-#carouselExampleCaptions{
+
+#carouselExampleCaptions {
     margin-bottom: 2%;
 }
+
 /* Agrega un espacio adicional al principio del área de desplazamiento */
 :target::before {
     content: "";
     display: block;
-    height: 105px; /* Ajusta esta altura según la altura de tu navbar */
-    margin: 10px 0 0; /* Ajusta este margen para que coincida con la altura del navbar */
-  }
-  #quienes-somos{
-    color:white
-  }
-  .mapa{
+    height: 105px;
+    /* Ajusta esta altura según la altura de tu navbar */
+    margin: 10px 0 0;
+    /* Ajusta este margen para que coincida con la altura del navbar */
+}
+
+#quienes-somos {
+    color: white
+}
+
+/* .mapa {
     border-radius: 100%;
-  }
+    filter:drop-shadow(2,5,2)
+} */
+.btnWA {
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #198754;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    width: 5rem;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.btnWA p {
+    margin-bottom: 0;
+}
+
+.btnWA:hover {
+    background-color: #1fae6b
+}
+
+.marco {
+    padding: 20px;
+    border: 2px solid white;
+}
