@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+a{
+    text-decoration: none;
+}
+
 #cards {
     background-image: url('/src/img/background.jpg');
     background-size: cover;
@@ -70,10 +74,10 @@ html {
     color: white
 }
 
-/* .mapa {
+.mapa {
     border-radius: 100%;
     filter:drop-shadow(2,5,2)
-} */
+}
 .btnWA {
     margin: 0 auto;
     margin-top: 20px;
@@ -91,11 +95,37 @@ html {
     margin-bottom: 0;
 }
 
-.btnWA:hover {
-    background-color: #1fae6b
-}
-
 .marco {
     padding: 20px;
     border: 2px solid white;
+}
+#contactenos{
+    color:white
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top:3rem;
+    padding: 1rem;
+    background-color: rgb(3, 3, 52);
+}
+.container-footer{
+    display: flex;
+    flex-direction: column;
+
+}
+.container-footer a{
+    color: white;
+}
+.container-footer a:hover{
+    color: rgb(101, 101, 101);
+}
+
+.container-footer h5{
+    color: white;
+}
+.text-footer{
+    width: 75%;
 }
