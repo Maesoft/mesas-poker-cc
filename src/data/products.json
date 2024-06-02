@@ -1,0 +1,51 @@
+{
+    "mesas": [
+      {
+        "imagen": "14.png",
+        "titulo": "Mesa de poker profesional",
+        "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+      },
+      {
+        "imagen": "mesa2.jpg",
+        "titulo": "Mesa de blackjack",
+        "descripcion": "Mesa de blackjack con tapete verde y espacio para hasta 7 jugadores."
+      }
+    ],
+    "ruletas": [
+      {
+        "imagen": "ruleta1.jpg",
+        "titulo": "Ruleta europea",
+        "descripcion": "Ruleta de estilo europeo con números del 1 al 36 y un solo cero."
+      },
+      {
+        "imagen": "ruleta2.jpg",
+        "titulo": "Ruleta americana",
+        "descripcion": "Ruleta de estilo americano con números del 1 al 36, un solo cero y doble cero."
+      }
+    ],
+    "ficheros": [
+      {
+        "imagen": "fichero1.jpg",
+        "titulo": "Fichas de poker",
+        "descripcion": "Set de fichas de poker de alta calidad, incluye 500 fichas de diferentes colores."
+      },
+      {
+        "imagen": "fichero2.jpg",
+        "titulo": "Fichas de ruleta",
+        "descripcion": "Set de fichas de ruleta de cerámica, numeradas y de alta durabilidad."
+      }
+    ],
+    "accesorios": [
+      {
+        "imagen": "accesorio1.jpg",
+        "titulo": "Baraja de cartas",
+        "descripcion": "Baraja de cartas de poker de plástico, resistentes al agua y al desgaste."
+      },
+      {
+        "imagen": "accesorio2.jpg",
+        "titulo": "Portavasos para mesas",
+        "descripcion": "Portavasos de acero inoxidable para mesas de poker, con capacidad para hasta 10 vasos."
+      }
+    ]
+  }
+  

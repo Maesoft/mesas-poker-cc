@@ -7,7 +7,7 @@ a{
 }
 
 #cards {
-    background-image: url('/src/img/background.jpg');
+    background-image: url('/src/img/assets/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,14 +19,13 @@ a{
 }
 
 .logo {
-    width: 6vw;
+    width: 4rem;
     filter: drop-shadow(0px 0px 5px gray);
     margin-right: 0.5vw;
 }
 
 .navbar-collapse {
     flex-direction: row-reverse;
-    height: 8vw;
 }
 
 .linea-sombreada {
@@ -38,7 +37,7 @@ a{
 }
 
 .text-header {
-    width: 30%;
+    width: 15rem;
 }
 
 #carouselExampleCaptions {
@@ -60,14 +59,11 @@ a{
     margin-bottom: 2%;
 }
 
-/* Agrega un espacio adicional al principio del área de desplazamiento */
 :target::before {
     content: "";
     display: block;
-    height: 105px;
-    /* Ajusta esta altura según la altura de tu navbar */
+    height: 80px;
     margin: 10px 0 0;
-    /* Ajusta este margen para que coincida con la altura del navbar */
 }
 
 #quienes-somos {
@@ -103,29 +99,69 @@ a{
     color:white
 }
 
-.footer{
-    display: flex;
-    justify-content: space-between;
-    max-width: 100%;
-    margin-top:3rem;
-    padding: 1rem;
+.footer {
     background-color: rgb(3, 3, 52);
+    color: white;
+    padding: 1rem;
+    margin-top: 3rem;
 }
-.container-footer{
+
+.container-footer {
     display: flex;
     flex-direction: column;
+    margin-bottom: 1rem;
+}
 
-}
-.container-footer a{
+.container-footer a {
     color: white;
+    text-decoration: none;
 }
-.container-footer a:hover{
+
+.container-footer a:hover {
     color: rgb(101, 101, 101);
 }
 
-.container-footer h5{
+.container-footer h5 {
     color: white;
 }
-.text-footer{
-    width: 75%;
+
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left:0;
+    background-color: black;
+    color: white;
+    width: 7rem;
+    height: 100%;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color: #1c1d1f;
+}
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: rgb(101, 101, 101);
+}
+.fondo{
+    padding-top:8%;
+    background-image: url('/src/img/assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat-y;
+    height: 100vh;
+}
+@media screen and (max-width: 768px) {
+    .fondo {
+        position: fixed;
+        left: 100px;
+        padding-top: 12%;
+    }
+    .footer {
+        text-align: center;
+    }
 }
