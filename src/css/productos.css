@@ -1,0 +1,41 @@
+.sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    background-color: black;
+    color: white;
+    width: 7rem;
+    height: 100%;
+    flex-direction: column;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color: #1c1d1f;
+}
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: rgb(101, 101, 101);
+}
+.fondo{
+    padding-top:8%;
+    background-image: url('/src/img/assets/background.jpg');
+    background-position: center;
+    background-repeat:repeat-y;
+    min-height: 50rem;
+    
+}
+
+.card-img-top{
+    width: 8rem;
+}
+@media screen and (max-width: 768px) {
+    .fondo {
+        position: absolute;
+        padding-top: 12%;
+    }
+}
