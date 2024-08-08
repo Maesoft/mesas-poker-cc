@@ -151,3 +151,22 @@ a{
         text-align: center;
     }
 }
+.text-style {
+    position: relative;
+    display: inline-block;
+    color: black;
+    z-index: 1; 
+}
+
+.text-style::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 12px;
+    right: 0;
+    bottom: 0;
+    background: white; 
+    filter: blur(30px); 
+    z-index: -100;
+    pointer-events: none;
+}

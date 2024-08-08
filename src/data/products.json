@@ -1,51 +1,253 @@
 {
-    "mesas": [
-      {
-        "imagen": "14.png",
-        "titulo": "Mesa de poker profesional",
-        "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
-      },
-      {
-        "imagen": "mesa2.jpg",
-        "titulo": "Mesa de blackjack",
-        "descripcion": "Mesa de blackjack con tapete verde y espacio para hasta 7 jugadores."
-      }
-    ],
-    "ruletas": [
-      {
-        "imagen": "ruleta1.jpg",
-        "titulo": "Ruleta europea",
-        "descripcion": "Ruleta de estilo europeo con números del 1 al 36 y un solo cero."
-      },
-      {
-        "imagen": "ruleta2.jpg",
-        "titulo": "Ruleta americana",
-        "descripcion": "Ruleta de estilo americano con números del 1 al 36, un solo cero y doble cero."
-      }
-    ],
-    "ficheros": [
-      {
-        "imagen": "fichero1.jpg",
-        "titulo": "Fichas de poker",
-        "descripcion": "Set de fichas de poker de alta calidad, incluye 500 fichas de diferentes colores."
-      },
-      {
-        "imagen": "fichero2.jpg",
-        "titulo": "Fichas de ruleta",
-        "descripcion": "Set de fichas de ruleta de cerámica, numeradas y de alta durabilidad."
-      }
-    ],
-    "accesorios": [
-      {
-        "imagen": "accesorio1.jpg",
-        "titulo": "Baraja de cartas",
-        "descripcion": "Baraja de cartas de poker de plástico, resistentes al agua y al desgaste."
-      },
-      {
-        "imagen": "accesorio2.jpg",
-        "titulo": "Portavasos para mesas",
-        "descripcion": "Portavasos de acero inoxidable para mesas de poker, con capacidad para hasta 10 vasos."
-      }
-    ]
-  }
-  
+  "mesas": [
+    {
+      "imagen": "1.png",
+      "titulo": "Mesa de poker con paño de Maradona y Messi para 12 jugadores",
+      "descripcion": "Mesa de poker con capacidad para 12 jugadores, fabricada en madera de alta calidad y con un paño decorativo con imágenes de Maradona y Messi."
+    },
+    {
+      "imagen": "2.png",
+      "titulo": "Mesa de poker profesional 2",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "3.png",
+      "titulo": "Mesa de poker profesional 3",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "4.png",
+      "titulo": "Mesa de poker profesional 4",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "5.png",
+      "titulo": "Mesa de poker profesional 5",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "6.png",
+      "titulo": "Mesa de poker profesional 6",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "7.png",
+      "titulo": "Mesa de poker profesional 7",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "8.png",
+      "titulo": "Mesa de poker con paño de Maradona y Messi para 10 jugadores",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad y con un paño decorativo con imágenes de Maradona y Messi."
+    },
+    {
+      "imagen": "9.png",
+      "titulo": "Mesa de poker profesional 9",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "10.png",
+      "titulo": "Mesa de poker profesional 10",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "11.png",
+      "titulo": "Mesa de poker profesional 11",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "12.png",
+      "titulo": "Mesa de poker profesional 12",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "13.png",
+      "titulo": "Mesa de poker profesional 13",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "14.png",
+      "titulo": "Mesa de poker profesional 14",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "15.png",
+      "titulo": "Mesa de poker profesional 15",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "16.png",
+      "titulo": "Mesa de poker profesional 16",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "17.png",
+      "titulo": "Mesa de poker profesional 17",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "18.png",
+      "titulo": "Mesa de poker profesional 18",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "19.png",
+      "titulo": "Mesa de poker profesional 19",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "20.png",
+      "titulo": "Mesa de poker profesional 20",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "21.png",
+      "titulo": "Mesa de poker profesional 21",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "22.png",
+      "titulo": "Mesa de poker profesional 22",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "23.png",
+      "titulo": "Mesa de poker profesional 23",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },{
+      "imagen": "24.png",
+      "titulo": "Mesa de poker profesional 24",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "25.png",
+      "titulo": "Mesa de poker profesional 25",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "26.png",
+      "titulo": "Mesa de poker profesional 26",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "27.png",
+      "titulo": "Mesa de poker profesional 27",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "28.png",
+      "titulo": "Mesa de poker profesional 28",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "29.png",
+      "titulo": "Mesa de poker profesional 29",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "30.png",
+      "titulo": "Mesa de poker profesional 30",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "31.png",
+      "titulo": "Mesa de poker profesional 31",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "32.png",
+      "titulo": "Mesa de poker profesional 32",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "33.png",
+      "titulo": "Mesa de poker profesional 33",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "34.png",
+      "titulo": "Mesa de poker profesional 34",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "35.png",
+      "titulo": "Mesa de poker profesional 35",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "36.png",
+      "titulo": "Mesa de poker profesional 36",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "37.png",
+      "titulo": "Mesa de poker profesional 37",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "38.png",
+      "titulo": "Mesa de poker profesional 38",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "39.png",
+      "titulo": "Mesa de poker profesional 39",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "40.png",
+      "titulo": "Mesa de poker profesional 40",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "41.png",
+      "titulo": "Mesa de poker profesional 41",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "42.png",
+      "titulo": "Mesa de poker profesional 42",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "43.png",
+      "titulo": "Mesa de poker profesional 43",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "44.png",
+      "titulo": "Mesa de poker profesional 44",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "45.png",
+      "titulo": "Mesa de poker profesional 45",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "46.png",
+      "titulo": "Mesa de poker profesional 46",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "47.png",
+      "titulo": "Mesa de poker profesional 47",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "48.png",
+      "titulo": "Mesa de poker profesional 48",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "49.png",
+      "titulo": "Mesa de poker profesional 49",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    },
+    {
+      "imagen": "50.png",
+      "titulo": "Mesa de poker profesional 50",
+      "descripcion": "Mesa de poker con capacidad para 10 jugadores, fabricada en madera de alta calidad."
+    }
+  ]
+}
