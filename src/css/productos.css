@@ -30,7 +30,7 @@
     background-image: url('/src/img/assets/background.jpg');
     background-position: center;
     background-repeat:repeat-y;
-    min-height: 150rem;
+    min-height: 100vh;
     width: 92%;
 }
 
