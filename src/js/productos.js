@@ -1,6 +1,8 @@
-const mesasPokerContainer = document.getElementById("mesas-poker-container")
+const mesasPokerContainer = document.getElementById("poker-container")
 const RuletasContainer = document.getElementById("ruletas-container")
 const modal = document.querySelector('.modal')
+const imgModal = document.querySelector('.imgModal')
+const btnClose = document.querySelector('.btnClose')
 
 for (let i = 1; i < 51; i++) {
     mesasPokerContainer.innerHTML += `
@@ -31,8 +33,13 @@ for (let i = 1; i < 3; i++) {
 
 mesasPokerContainer.addEventListener("click",(e)=>{
     const elementoClikeado = e.target.id
-    if (elementoClikeado.includes('mesa')){
-        modal.style.display= "block"
-        
+    const id=elementoClikeado.replace('mesa',"")
+    if (elementoClikeado.includes('mesa')){        
+        modal.style.display= "flex"
+        imgModal.src=`/src/img/products/poker/${id}.png`
     }    
+})
+
+btnClose.addEventListener('click',()=>{
+    modal.style.display="none"
 })

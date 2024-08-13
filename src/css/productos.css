@@ -10,6 +10,9 @@
     height: 100%;
     flex-direction: column;
 }
+.content{
+    margin-left: 10%;
+}
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: white;
     background-color: #1c1d1f;
@@ -22,31 +25,72 @@
     color: rgb(101, 101, 101);
 }
 .fondo{
+    margin-left: 7rem;
     padding-top:8%;
     background-image: url('/src/img/assets/background.jpg');
     background-position: center;
     background-repeat:repeat-y;
-    min-height: 50rem;
-    
+    min-height: 150rem;
+    width: 92%;
 }
 
 .card-img-top{
     width: 8rem;
 }
+.card-img-top:hover{
+    cursor: pointer;
+}
 @media screen and (max-width: 768px) {
     .fondo {
+        margin-top: 2rem;
         position: absolute;
         padding-top: 12%;
+        margin-left: 0;
+        width: 100%;
+    }
+    h5{
+        margin-top: 18px;
+        font-size:medium;
+        width: 80%;
     }
 }
 
 .modal{
     display: none;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.746);
     z-index: 2;
     width: 100%;
     height: 100vh;
+}
+.imgModal{
+    width: 20rem;
+}
+.container-modal{
+    margin-top: 5rem;
+    width: 30rem;
+    height: 20rem;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 5px;
+    border: 2px rgb(255, 255, 255) solid;
+}
+.btnClose{
+    margin: 0 auto;
+    background-color: #198754;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    width: 5rem;
+    justify-content: space-evenly;
+    padding: 5px;
 }
